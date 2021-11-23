@@ -1,12 +1,22 @@
 {
     "name": "webpack-auto-export-plugin",
-    "version": "1.0.7",
-    "description": "",
+    "version": "1.0.9",
+    "description": "自动生成文件夹中统一导出出口",
     "main": "./src/index.js",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "keywords": [],
-    "author": "Litter Flying Bear",
+    "keywords": [
+        "auto-export"
+    ],
+    "author": {
+        "name": "lx0427",
+        "email": "lx15172413095@163.com",
+        "url": "https://lx0427.github.io/vuepress/"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/lx0427/webpack-auto-export-plugin.git"
+    },
     "license": "ISC"
 }
