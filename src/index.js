@@ -11,6 +11,15 @@ class AutoExport {
         this.isWatching = false;
         this.compileHasError = false;
         this.writeFileSync = this.writeFileSync.bind(this);
+
+        this.initFile();
+    }
+
+    // 插件引入：初始化文件
+    initFile() {
+        this.options.dir.forEach(p => {
+            writeAutoExport(p);
+        });
     }
 
     /**
